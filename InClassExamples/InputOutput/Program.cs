@@ -2,6 +2,7 @@
 *
 *@Author: Alessio Hall
 * Collaborated with: (Whoever I work with)
+* 
 */
 using System;
 
@@ -12,7 +13,7 @@ namespace InputOutput
         const string CLASS_NAME = "MIS 3013";
         static void Main(string[] args)
         {
-            // This won't work because it is a constant - CLASS_NAME = "MIS 3353";
+            //This won't work because it is a constant - CLASS_NAME = "MIS 3353";
             //string firstName, lastName; 
             string firstName = "Alessio";
             string lastName = "Hall";

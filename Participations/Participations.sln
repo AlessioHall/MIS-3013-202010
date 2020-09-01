@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Participation1_SumOf3Numbers", "Participation1_SumOf3Numbers\Participation1_SumOf3Numbers.csproj", "{75382E15-D5EE-47A5-A374-941C52282A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOf3", "Participation1_SumOf3Numbers\SumOf3.csproj", "{75382E15-D5EE-47A5-A374-941C52282A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
