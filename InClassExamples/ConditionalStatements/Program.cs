@@ -31,6 +31,7 @@ namespace ConditionalStatements
             else
             {
                 Console.WriteLine("INVALID INPUT - TRY AGAIN");
+                return;
             }
 
             double quote = 0.55 * distance + 0.73 * weight;
