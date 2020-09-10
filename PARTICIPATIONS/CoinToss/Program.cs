@@ -10,11 +10,11 @@ namespace CoinToss
     {
         static void Main(string[] args)
         {
-            Random coin = new Random();
+            Random rnd = new Random();
 
-            int coin = coin.next(0, 1);
+            int coin = rnd.Next(0, 2);
 
-            Console.WriteLine(coin);
+            
 
 
         }
