@@ -2,8 +2,7 @@
 
 namespace Participation1_SumOf3Numbers
 
-    // Figure out the 3 decimal thing
-{
+   {
     class Program
     {
         static void Main(string[] args)
@@ -18,13 +17,15 @@ namespace Participation1_SumOf3Numbers
             double FavNumber = Convert.ToDouble(Console.ReadLine());
 
             double sum = Years + Shoe + FavNumber;
-            Console.WriteLine("The sum of the three numbers you just provided me is " + sum + "!");
+            
+            Console.WriteLine("The sum of the three numbers you just provided me is " + sum.ToString("F3") + "!");
 
             const double seven = 7.777;
             double MagicNumber = sum * seven;
 
-            Console.WriteLine("With a bit of magic, your new lucky number is " + MagicNumber + "!");
-            Console.WriteLine("How cool!");
+            Console.WriteLine();
+            Console.WriteLine("With a bit of magic, your new lucky number is " + MagicNumber.ToString("F3") + "!");
+            
 
 
         }
