@@ -18,7 +18,7 @@ namespace FizzBuzz
 
             Random random = new Random();
 
-            int randnumber = random.Next(1, 100);
+            int randnumber = random.Next(1, 101);
             int remainder = randnumber % 3;
             int remainder2 = randnumber % 5;
 
