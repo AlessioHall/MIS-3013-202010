@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{7D750623-EE8E-4B24-92ED-22222A25011B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinToss", "CoinToss\CoinToss.csproj", "{A8DE3A99-1FF7-4A25-87B6-7CF2EB94F927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinToss", "CoinToss\CoinToss.csproj", "{A8DE3A99-1FF7-4A25-87B6-7CF2EB94F927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{B72B20A0-F55E-4000-A056-5C144945D737}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A8DE3A99-1FF7-4A25-87B6-7CF2EB94F927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8DE3A99-1FF7-4A25-87B6-7CF2EB94F927}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8DE3A99-1FF7-4A25-87B6-7CF2EB94F927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72B20A0-F55E-4000-A056-5C144945D737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72B20A0-F55E-4000-A056-5C144945D737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72B20A0-F55E-4000-A056-5C144945D737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72B20A0-F55E-4000-A056-5C144945D737}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
