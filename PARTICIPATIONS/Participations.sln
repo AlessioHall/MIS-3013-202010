@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinToss", "CoinToss\CoinTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{B72B20A0-F55E-4000-A056-5C144945D737}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections MinMaxAvg", "Collections MinMaxAvg\Collections MinMaxAvg.csproj", "{A2FEA8C8-B6A6-4239-A6AD-3F29C52FECB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processing a CSV File", "Processing a CSV File\Processing a CSV File.csproj", "{0D8D7822-0896-439B-B12F-FE1E3BBD4691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B72B20A0-F55E-4000-A056-5C144945D737}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72B20A0-F55E-4000-A056-5C144945D737}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72B20A0-F55E-4000-A056-5C144945D737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FEA8C8-B6A6-4239-A6AD-3F29C52FECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FEA8C8-B6A6-4239-A6AD-3F29C52FECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FEA8C8-B6A6-4239-A6AD-3F29C52FECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FEA8C8-B6A6-4239-A6AD-3F29C52FECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D8D7822-0896-439B-B12F-FE1E3BBD4691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8D7822-0896-439B-B12F-FE1E3BBD4691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8D7822-0896-439B-B12F-FE1E3BBD4691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8D7822-0896-439B-B12F-FE1E3BBD4691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
