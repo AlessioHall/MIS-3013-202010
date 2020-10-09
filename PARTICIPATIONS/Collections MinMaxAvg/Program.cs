@@ -5,7 +5,9 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,15 +18,44 @@ namespace Collections_MinMaxAvg
         static void Main(string[] args)
         {
 
+            List<int> ExamScores = new List<int>();
+            string answer;
+            int ExamScore;
+            do
+            {
+                Console.WriteLine("Please enter one of your exam scores >>");
+                ExamScore = Convert.ToInt32(Console.ReadLine());
+
+                ExamScores.Add(ExamScore);
+
+                Console.WriteLine("Do you have another another exam score to report? >>");
+                answer = Console.ReadLine();
+
+            } while (answer.ToLower() == "yes");
+
+            int Length = ExamScores.Count;
+            int minimum;
+
+            for (int i = 100; i < Length; i--)
+            {
+                minimum = 100;
+                if (i < minimum)
+                {
+                    minimum = i;
+                }
+                Console.WriteLine(minimum);
+            }
 
 
+            Console.WriteLine();
 
 
+            int TotalNumberOfScores = ExamScores.Count;
+            int Sum = ExamScores.Sum();
+            int AverageScore = Sum / TotalNumberOfScores;
 
 
-
-
-
+            Console.WriteLine(AverageScore); 
 
 
 
