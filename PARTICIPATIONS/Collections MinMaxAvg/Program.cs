@@ -34,11 +34,11 @@ namespace Collections_MinMaxAvg
             } while (answer.ToLower() == "yes");
 
             int Length = ExamScores.Count;
-            int minimum;
+            int minimum = 100;
 
-            for (int i = 100; i < Length; i--)
+            for (int i = 0; i < Length; i--)
             {
-                minimum = 100;
+                minimum--;
                 if (i < minimum)
                 {
                     minimum = i;
