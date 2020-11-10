@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Homework5\Arrays.csproj", "{93B6139B-C3B8-4B61-B8E8-D44829DCE881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{19EDBA12-425C-4C2D-9CFF-FC4E74116978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{A7BEF7FE-58A1-42B7-A49E-093BEF101380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93B6139B-C3B8-4B61-B8E8-D44829DCE881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B6139B-C3B8-4B61-B8E8-D44829DCE881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B6139B-C3B8-4B61-B8E8-D44829DCE881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B6139B-C3B8-4B61-B8E8-D44829DCE881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EDBA12-425C-4C2D-9CFF-FC4E74116978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EDBA12-425C-4C2D-9CFF-FC4E74116978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EDBA12-425C-4C2D-9CFF-FC4E74116978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EDBA12-425C-4C2D-9CFF-FC4E74116978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BEF7FE-58A1-42B7-A49E-093BEF101380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BEF7FE-58A1-42B7-A49E-093BEF101380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BEF7FE-58A1-42B7-A49E-093BEF101380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BEF7FE-58A1-42B7-A49E-093BEF101380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4469D356-C64E-4340-8166-8414991C35BF}
+	EndGlobalSection
+EndGlobal
