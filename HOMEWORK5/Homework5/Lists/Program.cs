@@ -17,9 +17,9 @@ namespace Lists
             string answer;
             do
             {
-                Console.WriteLine("enter a fav thing");
+                Console.WriteLine("Enter one of your favorite things");
                 favthings.Add(Console.ReadLine());
-                Console.WriteLine("do u wanna add another");
+                Console.WriteLine("Do you want to add another favorite thing?");
                 answer = Console.ReadLine();
             } while (answer.ToLower() == "yes");
 
